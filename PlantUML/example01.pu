@@ -1,0 +1,17 @@
+@startuml test
+title テスト用クラス図
+skinparam dpi 150
+
+' クラスAの定義
+class AABB {
+  +string field1
+  +void method1()
+}
+note right of AABB {
+  これが基本のクラス
+}
+
+' クラス間の関係
+AABB |o--||B : 継承
+AABB ||..o{ C : 継承
+@enduml
