@@ -1,4 +1,5 @@
 @startuml test
+
 title テスト用クラス図
 skinparam dpi 150
 
@@ -14,4 +15,5 @@ note right of AABB {
 ' クラス間の関係
 AABB |o--||B : 継承
 AABB ||..o{ C : 継承
+
 @enduml
